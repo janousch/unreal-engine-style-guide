@@ -1,6 +1,6 @@
-# [Gamemakin](https://gamemak.in) UE4 Style Guide() {
+# [Ramon Janousch](https://www.ramonjanousch.com/) UE Style Guide() {
 
-*A mostly reasonable approach to Unreal Engine 4*
+*A mostly reasonable approach to Unreal Engine*
 
 Heavily inspired by the [Airbnb Javascript Style Guide](https://github.com/airbnb/javascript).
 
@@ -27,13 +27,6 @@ For example, if you want to send someone to the first principle of this style gu
 ## Forks And Translations
 
 If you have made a notable fork or translation that is not suitable for a pull request into this repo, please submit a pull request to add the fork or translation here.
-
-* [Korean Translation](https://github.com/ymkim50/ue4-style-guide/blob/master/README_Kor.md) by ymkim50
-* [Russian Translation](https://github.com/CosmoMyzrailGorynych/ue4-style-guide-rus/blob/master/README.md) by CosmoMyzrailGorynych
-* [Japanese Translation](https://github.com/akenatsu/ue4-style-guide/blob/master/README.jp.md) by akenatsu
-* [Chinese Translation](https://github.com/skylens-inc/ue4-style-guide/blob/master/README.md) by Beijing Skylens Tech.
-* [Brazilian Portuguese Translation](https://github.com/danlvr/ue5-style-guide/blob/main/README_PTBR.md) by danlvr.
-* [French Translation](https://github.com/Arnaud58/ue5-style-guide/blob/main/README.md) by Arnaud58
 
 ## Table of contents
 - [Important Terminology](#important-terminology)
@@ -392,7 +385,7 @@ When naming an asset, use these tables to determine the prefix and suffix to use
 | Asset Type              | Prefix     | Suffix     | Notes                            |
 | ----------------------- | ---------- | ---------- | -------------------------------- |
 | Blueprint               | BP_        |            |                                  |
-| Blueprint Component     | BP_        | Component  | I.e. BP_InventoryComponent       |
+| Blueprint Actor Component  | AC_     |            | I.e. AC_Bob_Inventory       |
 | Blueprint Function Library | BPFL_   |            |                                  |
 | Blueprint Interface     | BPI_       |            |                                  |
 | Blueprint Macro Library | BPML_      |            | Do not use macro libraries if possible. |
