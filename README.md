@@ -337,8 +337,8 @@ When naming an asset, use these tables to determine the prefix and suffix to use
 | Static Mesh             | S_         |            | Many use SM_. We use S_.         |
 | Skeletal Mesh           | SK_        |            |                                  |
 | Texture                 | T_         | _?         | See [Textures](#anc-textures)    |
-| Particle System         | PS_        |            |                                  |
 | Widget Blueprint        | WBP_       |            |                                  |
+| Niagara System          | NS_        |            |                                  |
 
 <a name="anc-animations"></a>
 <a name="1.2.2"></a>
@@ -388,9 +388,10 @@ When naming an asset, use these tables to determine the prefix and suffix to use
 | Blueprint Interface     | BPI_       |            |                                  |
 | Blueprint Macro Library | BPML_      |            | Do not use macro libraries if possible. |
 | Enumeration             | E          |            | No underscore.                   |
-| Structure               | F or S     |            | No underscore.                   |
+| Structure               | S          |            | No underscore.                   |
 | Tutorial Blueprint      | TBP_       |            |                                  |
 | Widget Blueprint        | WBP_       |            |                                  |
+| State Machine           | SM_        |            |                                  |
 
 <a name="anc-materials"></a>
 <a name="1.2.5"></a>
@@ -423,7 +424,8 @@ When naming an asset, use these tables to determine the prefix and suffix to use
 | Texture (Emissive)      | T_         | _E         |                                  |
 | Texture (Mask)          | T_         | _M         |                                  |
 | Texture (Specular)      | T_         | _S         |                                  |
-| Texture (Metallic)      | T_         | _M         |                                  |
+| Texture (Metallic)      | T_         | _MT        |                                  |
+| Texture (Displacement)  | T_         | _DP        |                                  |
 | Texture (Packed)        | T_         | _*         | See notes below about [packing](#anc-textures-packing). |
 | Texture Cube            | TC_        |            |                                  |
 | Media Texture           | MT_        |            |                                  |
@@ -497,6 +499,7 @@ Packing 4 channels of data into a texture (RGBA) is not recommended except for a
 
 | Asset Type              | Prefix     | Suffix     | Notes                            |
 | ----------------------- | ---------- | ---------- | -------------------------------- |
+| Meta Sound Source       | MSS_       |            |                                  |
 | Dialogue Voice          | DV_        |            |                                  |
 | Dialogue Wave           | DW_        |            |                                  |
 | Media Sound Wave        | MSW_       |            |                                  |
@@ -525,8 +528,32 @@ Packing 4 channels of data into a texture (RGBA) is not recommended except for a
 
 | Asset Type              | Prefix     | Suffix     | Notes                            |
 | ----------------------- | ---------- | ---------- | -------------------------------- |
-| Particle System         | PS_        |            |                                  |
+| Niagara Emitter         | NE_        |            |                                  |
+| Niagara Module          | NM_        |            |                                  |
+| Niagara Function Script | NF_        | _S         |                                  |
+| Niagara System          | NS_        |            |                                  |
+| Niagara Parameter Collection | NP_   |            | To avoid mistake with the NPC    |
+| Niagara System          | NS_        |            |                                  |
 | Material (Post Process) | PP_        |            |                                  |
+| Particle System         | PS_        |            | Used in UE4 and now Obsolete     |
+
+<a name="anc-gameplay"></a>
+<a name="1.2.13"></a>
+### 1.2.13 Gameplay Abilities
+
+| Gameplay Abilities      | GA_        |            |                                  |
+| Gameplay Effects        | GE_        |            |                                  |
+| Gameplay Cue Notifies   | GCN_       |            | UGameplayCueNotify               |
+| Latent Gameplay Cue Notifies | GCNL_ |            | Inherits from AGameplayCueNotify_Actor and subclasses. |
+| Game Phase Abilities    | Phase_     |            |                                  |
+| Ability Set             | AbilitySet_ |           |                                  |
+
+<a name="anc-input"></a>
+<a name="1.2.14"></a>
+### 1.2.14 Input
+
+| Input Action            | IA_        |            | Enhanced Input                   |
+| Input Mapping Context   | IMC_       |            |                                  |
 
 **[⬆ Back to Top](#table-of-contents)**
 
