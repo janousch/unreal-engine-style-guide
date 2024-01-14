@@ -2,21 +2,6 @@
 
 *A mostly reasonable approach to Unreal Engine*
 
-Heavily inspired by the [Airbnb Javascript Style Guide](https://github.com/airbnb/javascript).
-
-## Repo Notice
-
-This repo is now located at https://github.com/Allar/ue5-style-guide. The default branch of this repository has been renamed `main`.
-
-## This is currently for UE4. For UE5/v2, see the v2 branch
-## Linter and Style Guide Documentation
-
-More technical documentation regarding Linter and the Style Guide can be found at our [ReadTheDocs](https://ue4-style-guide.readthedocs.io/en/latest/) page.
-
-## Discuss This Style Guide
-
-Gamemakin LLC has a public Discord channel at http://discord.gamemak.in with a #linter channel if you'd like to discuss all things style guide and Linter plugin.
-
 ## Linking To This Document
 
 Every section of this style guide is numbered for both easy reference and easy linking. You can link to any section directly by simply append a hash tag and the section number to the end of http://ue4.style
@@ -60,6 +45,8 @@ If you have made a notable fork or translation that is not suitable for a pull r
   - [1.2.10 Sounds](#anc-sounds)
   - [1.2.11 User Interface](#anc-ui)
   - [1.2.12 Effects](#anc-effects)
+  - [1.2.13 Effects](#anc-gameplay)
+  - [1.2.14 Effects](#anc-input)
 - [2. Content Directory Structure](#structure)
   - [2e1 Example Project Content Structure](#2e1)
   - [2.1 Folder Names](#structure-folder-names)
@@ -541,6 +528,8 @@ Packing 4 channels of data into a texture (RGBA) is not recommended except for a
 <a name="1.2.13"></a>
 ### 1.2.13 Gameplay Abilities
 
+| Asset Type              | Prefix     | Suffix     | Notes                            |
+| ----------------------- | ---------- | ---------- | -------------------------------- |
 | Gameplay Abilities      | GA_        |            |                                  |
 | Gameplay Effects        | GE_        |            |                                  |
 | Gameplay Cue Notifies   | GCN_       |            | UGameplayCueNotify               |
@@ -552,6 +541,8 @@ Packing 4 channels of data into a texture (RGBA) is not recommended except for a
 <a name="1.2.14"></a>
 ### 1.2.14 Input
 
+| Asset Type              | Prefix     | Suffix     | Notes                            |
+| ----------------------- | ---------- | ---------- | -------------------------------- |
 | Input Action            | IA_        |            | Enhanced Input                   |
 | Input Mapping Context   | IMC_       |            |                                  |
 
